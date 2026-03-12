@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        TOMCAT_HOME = 'C:\\appache\\apache-tomcat-9.0.115-windows-x64\\apache-tomcat-9.0.115'
+        TOMCAT_HOME = '"C:\\appache\\apache-tomcat-9.0.115"'
         WAR_NAME = 'java.war'
     }
 
