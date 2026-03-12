@@ -43,32 +43,31 @@
     </script>
 </head>
 <body>
-<h2>Basic Calculator</h2>
-
-<label>Number 1:</label>
-<input type="number" id="num1"><br><br>
-
-<label>Number 2:</label>
-<input type="number" id="num2"><br><br>
-
-<label>Operation:</label>
-<select id="operator">
-<option value="+">Addition (+)</option>
-<option value="-">Subtraction (-)</option>
-<option value="*">Multiplication (*)</option>
-<option value="/">Division (/)</option>
-</select>
-
-<br><br>
-
-<button onclick="calculate()">Calculate</button>
-
-<p id="result"></p>
-
-<button onclick="callApi()">Call API</button>
-
-<p id="result"></p>
+    <h2>Basic Calculator</h2>
+    
+    <label>Number 1:</label>
+    <input type="number" id="num1"><br><br>
+    
+    <label>Number 2:</label>
+    <input type="number" id="num2"><br><br>
+    
+    <label>Operation:</label>
+    <select id="operator">
+        <option value="+">Addition (+)</option>
+        <option value="-">Subtraction (-)</option>
+        <option value="*">Multiplication (*)</option>
+        <option value="/">Division (/)</option>
+    </select>
+    
+    <br><br>
+    
+    <button onclick="calculate()">Calculate</button>
+    
+    <button onclick="callApi()">Call API</button>
+    
+    <p id="result"></p>
 
 </body>
 </html>
+
 
